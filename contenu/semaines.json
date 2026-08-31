@@ -1,0 +1,23 @@
+{
+ "titre": "Exercices quotidiens de photographie",
+ "semaines": [
+  {
+   "slug": "semaine-01",
+   "numero": 1,
+   "titre": "Semaine 1",
+   "sousTitre": "Le regard et la prise en main",
+   "description": "Sept séances de 15 à 20 minutes : prise en main, composition, lumière, mise au point et profondeur de champ.",
+   "jours": 7,
+   "checks": 46,
+   "disponible": true
+  }
+ ],
+ "aVenir": [
+  {
+   "numero": 2,
+   "titre": "Semaine 2",
+   "sousTitre": "Vitesse, ISO et triangle d'exposition",
+   "description": "Mode S, gel et flou du mouvement, limite ISO du boîtier, premiers pas en mode M, filé, téléobjectif et heure bleue."
+  }
+ ]
+}

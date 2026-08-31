@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Exercices quotidiens de photographie — une séance de 15 à 20 minutes par jour, à l'appareil photo et au smartphone.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131316" media="(prefers-color-scheme: dark)">
+<title>Exercices quotidiens</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#128248;</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="scrim" aria-hidden="true"></div>
+
+<div class="layout">
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <p class="brand-title">Exercices quotidiens</p>
+      <p class="brand-sub">Pratique &middot; Anthony &middot; Sony &alpha;6500</p>
+    </div>
+
+    <div class="progress-block">
+      <div class="progress-label"><span id="prog-count">0 / 0 points</span><span id="prog-pct">0 %</span></div>
+      <div class="progress-track"><div class="progress-fill" data-progfill></div></div>
+    </div>
+
+    <ul class="navlist" id="navlist">
+      <li><div class="loading">Chargement…</div></li>
+    </ul>
+
+    <div class="theme-row">
+      <div class="seg" role="group" aria-label="Thème">
+        <button type="button" data-theme-set="auto">Auto</button>
+        <button type="button" data-theme-set="light">Clair</button>
+        <button type="button" data-theme-set="dark">Sombre</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <div class="topbar">
+      <div class="topbar-inner">
+        <button class="icon-btn" data-drawer-toggle aria-label="Ouvrir le sommaire">
+          <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <div class="topbar-title" id="topbar-title">Exercices</div>
+        <button class="icon-btn" data-theme-cycle aria-label="Changer de thème"></button>
+      </div>
+      <div class="progress-track"><div class="progress-fill" data-progfill></div></div>
+    </div>
+
+    <div class="wrap">
+      <section class="chapter active" id="view">
+        <div class="loading">Chargement du contenu…</div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<nav class="bottombar" aria-label="Navigation">
+  <div class="bottombar-inner">
+    <button class="bb-btn" id="bb-menu" data-drawer-toggle></button>
+    <button class="bb-btn" id="bb-prev"></button>
+    <button class="bb-btn" id="bb-next"></button>
+    <button class="bb-btn" id="bb-home"></button>
+  </div>
+</nav>
+
+<script src="assets/app.js"></script>
+<script src="assets/exercices.js"></script>
+</body>
+</html>
